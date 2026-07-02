@@ -1,0 +1,16 @@
+============================= test session starts =============================
+platform win32 -- Python 3.13.5, pytest-9.1.0, pluggy-1.6.0 -- C:\Users\lekha\AppData\Local\Programs\Python\Python313\python.exe
+cachedir: .pytest_cache
+rootdir: C:\CodePath\game-glitch-investigator
+plugins: anyio-4.11.0
+collecting ... collected 7 items
+
+tests/test_game_logic.py::test_calculate_score_correct PASSED            [ 14%]
+tests/test_game_logic.py::test_calculate_score_wrong PASSED              [ 28%]
+tests/test_game_logic.py::test_hint_greater_than_five PASSED             [ 42%]
+tests/test_game_logic.py::test_hint_five_or_less PASSED                  [ 57%]
+tests/test_game_logic.py::test_valid_guess PASSED                        [ 71%]
+tests/test_game_logic.py::test_invalid_guess_low PASSED                  [ 85%]
+tests/test_game_logic.py::test_invalid_guess_high PASSED                 [100%]
+
+============================== 7 passed in 0.02s ==============================
